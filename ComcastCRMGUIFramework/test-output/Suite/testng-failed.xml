@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="practice.Test.ListenerImpandExtentForOrgTest"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="practice.Test.CreateOrgwithListenerANDExtent"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="practice.Test.CreateOrgwithListenerANDExtent">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftersuit"/>
+          <include name="OrgTest"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="aftertest"/>
+          <include name="beforesuit"/>
+          <include name="loginpage"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- practice.Test.CreateOrgwithListenerANDExtent -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
