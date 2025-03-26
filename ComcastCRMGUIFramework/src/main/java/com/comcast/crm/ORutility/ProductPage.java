@@ -6,5 +6,7 @@ public class ProductPage {
 	
 	// adderd product page 
 	//some of the elements
+	
+	// search textfield element added 
 
 }
