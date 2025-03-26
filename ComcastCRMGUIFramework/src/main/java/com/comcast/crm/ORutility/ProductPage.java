@@ -8,5 +8,8 @@ public class ProductPage {
 	//some of the elements
 	
 	// search textfield element added 
+	
+	//@FindBy(name="searchfield")
+	//private WebElement scrchedt;
 
 }
