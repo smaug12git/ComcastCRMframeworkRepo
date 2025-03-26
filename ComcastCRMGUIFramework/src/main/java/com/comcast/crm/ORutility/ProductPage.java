@@ -10,4 +10,9 @@ public class ProductPage {
 	// search textfield element added 
 
 	// username and password textfield is added to the product page
+	
+	
+	// @findBy(name="username")
+	//private WebElement unedt;
+	
 }
